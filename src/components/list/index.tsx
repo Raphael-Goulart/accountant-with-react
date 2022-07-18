@@ -1,6 +1,6 @@
 import React from "react";
 
-function Lista() {
+function List() {
     return (
         <aside>
             <h2>Estudos do Dia</h2>
@@ -26,6 +26,6 @@ function Lista() {
     )
 }
 
-export default Lista;
+export default List;
 
 /*está é uma estrutura padrão de function components */

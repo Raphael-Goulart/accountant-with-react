@@ -1,5 +1,6 @@
 import React from 'react';
 import Form from './components/form';
+import List from './components/list';
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       
         <Form></Form> 
+        <List/>
       
     </div>
   );
