@@ -1,9 +1,10 @@
 import React from "react";
+import style from './Botao.module.scss';
 
 class Button extends React.Component { //botao que extende um botao react
-    render(): React.ReactNode { //o render é obrigatorio
+    render() { //o render é obrigatorio
         return ( //retorna nosso HTML 
-            <button>
+            <button className={style.botao}>
                 Botão
             </button>
         )
