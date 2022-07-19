@@ -36,6 +36,8 @@ array um objeto ou seja com
 vários itens, no caso fica const tarefas = [{}]
 O map sempre percorre os itens de um array e retorna 
 Sempre que temos um map temos que ter uma key
+Você pode instalar o sass para usar a biblioteca disponivel e estilizar com css de forma produtiva
+npm install --save-dev sass 
 
 
 */
