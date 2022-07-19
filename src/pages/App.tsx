@@ -1,4 +1,5 @@
 import React from 'react';
+import Cronometro from '../components/cronometro'
 import Form from '../components/form';
 import List from '../components/list';
 import style from './App.module.scss';
@@ -11,6 +12,7 @@ function App() {
       
         <Form/> 
         <List/>
+        <Cronometro/>
   
       
     </div>
@@ -23,4 +25,6 @@ export default App;
 vamos sempre usar esse componente para reaproveitar código
 
 você pode importar tanto assim: <Form/> quanto assim: <Form><Form/>
+
+PROPS 
 */
