@@ -7,9 +7,13 @@ class Form extends React.Component {
         tarefa: "",
         tempo: "00:00"
     }
+
+    addTarefa(evento: React.FormEvent<HTMLFormElement>){
+        evento.preventDefault();
+    }
     render(): React.ReactNode {
         return (
-            <form className={style.novaTarefa}>
+            <form className={style.novaTarefa} onSubmit={this.addTarefa.bind(this)}>
                 <div className={style.inputContainer}>
                     <label htmlFor="tarefa">
                     Adicione um novo estudo
@@ -41,7 +45,7 @@ class Form extends React.Component {
                      />
                 </div>
 
-                <Button>
+                <Button type="submit">
                     Adicionar
                 </Button>
                     
