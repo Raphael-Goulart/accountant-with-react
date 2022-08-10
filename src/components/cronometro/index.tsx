@@ -31,7 +31,7 @@ export default function Cronometro ({ selecionado, finalizarTarefa }: Props) {
 
     return (
         <div className={style.cronometro}>
-            <p className={style.titulo}>Escolha uma Linguagem e inicie o Cronômetro</p>
+            <p className={style.titulo}>Selecione o que deseja estudar inicie o Cronômetro</p>
             <div className={style.relogioWrapper}>
                 <Relogio tempo={tempo}/>
             </div>
